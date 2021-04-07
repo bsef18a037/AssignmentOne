@@ -14,7 +14,7 @@ public class Dua_1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dua_of_waking_up);
-        getSupportActionBar().setTitle("Dua after waking up from sleep");
+        getSupportActionBar().setTitle("نیند سے جاگنے کے بعد دعا");
         mediaPlayer= MediaPlayer.create(Dua_1.this,R.raw.duaafterwakingupfromsleep);
         if(mediaPlayer.isPlaying()==false)
             mediaPlayer.start();

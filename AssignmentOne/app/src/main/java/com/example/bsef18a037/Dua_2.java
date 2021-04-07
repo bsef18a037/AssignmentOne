@@ -12,9 +12,9 @@ public class Dua_2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_dua_of_waking_up);
-        getSupportActionBar().setTitle("Dua after waking up from sleep");
-        mediaPlayer= MediaPlayer.create(Dua_2.this,R.raw.duaafterwakingupfromsleep);
+        setContentView(R.layout.activity_dua_when_visiting_sick);
+        getSupportActionBar().setTitle("بیمار وں کی عیادت کی دعا");
+        mediaPlayer= MediaPlayer.create(Dua_2.this,R.raw.dua_for_visting_the_sick);
         if(mediaPlayer.isPlaying()==false)
             mediaPlayer.start();
     }
