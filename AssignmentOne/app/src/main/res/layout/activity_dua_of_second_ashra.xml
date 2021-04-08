@@ -18,17 +18,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/doosray_ashray_ki_dua" />
+        app:srcCompat="@drawable/doosray_ashray_ki_dua"
+        android:contentDescription="@string/todo" />
 
-    <Button
-        android:id="@+id/videoButton4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="If you want to see video, then click here"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.105" />
 </androidx.constraintlayout.widget.ConstraintLayout>

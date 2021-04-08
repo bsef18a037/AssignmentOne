@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">Duas</string>
+    <string name="app_name">Duas App by Moeen Khan</string>
+    <string name="Dua_heading">دعائیں</string>
+    <string name="dua1">نیند سے جاگنے کے بعد کی دعا</string>
+    <string name="dua2">بیمار وں کی عیادت کی دعا</string>
+    <string name="dua3">آئینے میں دیکھنے کی دعا</string>
+    <string name="dua4">دوسرے عشرہ کی دعا</string>
+    <string name="videoButton">If you want to see video, then click here</string>
+    <string name="DuasHeading">دعائیں</string>
+    <string name="startButton">دعائیں سنیں</string>
+    <string name="buttonToMyWebsite">مزید دعاؤں کے لئے میری ویب سائٹ دیکھنے کے لئے یہاں کلک کریں</string>
+    <string name="todo">TODO</string>
+    <string name="imageView">TODO</string>
+    <string name="image">image</string>
+    <string name="imagesView">imagesView</string>
+    <string name="dua5Button">سواری میں سوار سے پہلے کی دعا</string>
 </resources>

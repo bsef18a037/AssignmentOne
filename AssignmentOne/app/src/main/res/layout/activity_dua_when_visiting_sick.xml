@@ -17,5 +17,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.028"
-        app:srcCompat="@drawable/visit_sick" />
+        app:srcCompat="@drawable/visit_sick"
+        android:contentDescription="@string/imagesView" />
 </androidx.constraintlayout.widget.ConstraintLayout>

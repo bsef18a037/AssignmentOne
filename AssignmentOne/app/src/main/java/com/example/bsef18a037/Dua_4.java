@@ -15,14 +15,14 @@ public class Dua_4 extends AppCompatActivity {
         setContentView(R.layout.activity_dua_of_second_ashra);
         getSupportActionBar().setTitle("دوسرے عشرہ کی دعا");
         mediaPlayer= MediaPlayer.create(Dua_4.this,R.raw.dosray_ashray_ki_dua);
-        if(mediaPlayer.isPlaying()==false)
+        if(!mediaPlayer.isPlaying() && mediaPlayer!=null)
             mediaPlayer.start();
 
     }
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        if(mediaPlayer.isPlaying()==true)
+        if(mediaPlayer.isPlaying())
             mediaPlayer.stop();
     }
 }

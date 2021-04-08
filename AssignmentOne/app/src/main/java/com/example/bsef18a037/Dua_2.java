@@ -15,13 +15,13 @@ public class Dua_2 extends AppCompatActivity {
         setContentView(R.layout.activity_dua_when_visiting_sick);
         getSupportActionBar().setTitle("بیمار وں کی عیادت کی دعا");
         mediaPlayer= MediaPlayer.create(Dua_2.this,R.raw.dua_for_visting_the_sick);
-        if(mediaPlayer.isPlaying()==false)
+        if(!mediaPlayer.isPlaying() && mediaPlayer!=null)
             mediaPlayer.start();
     }
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        if (mediaPlayer.isPlaying() == true)
+        if (mediaPlayer.isPlaying())
             mediaPlayer.stop();
     }
 }

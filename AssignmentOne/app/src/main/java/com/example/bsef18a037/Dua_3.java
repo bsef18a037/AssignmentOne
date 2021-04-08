@@ -15,13 +15,13 @@ public class Dua_3 extends AppCompatActivity {
         setContentView(R.layout.activity_dua_of_seeing_mirror);
         getSupportActionBar().setTitle("آئینے میں دیکھنے کی دعا");
         mediaPlayer= MediaPlayer.create(Dua_3.this,R.raw.aaina_ki_dua);
-        if(mediaPlayer.isPlaying()==false)
+        if(!mediaPlayer.isPlaying() && mediaPlayer!=null)
             mediaPlayer.start();
     }
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        if(mediaPlayer.isPlaying()==true)
+        if(mediaPlayer.isPlaying())
             mediaPlayer.stop();
     }
 }
